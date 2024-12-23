@@ -1,12 +1,12 @@
 class Test
 {
-public static void add(){
+public  void add(){
    System.out.println(5+5);
 }
    public static void main(String[] args)
    {
-
-     add();
+    Test t = new Test();
+    t.add();
 
    }
 
